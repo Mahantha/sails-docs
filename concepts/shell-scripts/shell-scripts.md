@@ -18,7 +18,7 @@ sails run hello
 ```
 
 > If you need to run a script without global access to the `sails` command-line interface (in a Procfile, for example), use `node ./node_modules/sails/bin/sails run hello`.
-
+If you need to run using pm2 `pm2 ./node_modules/sails/bin/sails -- run hello`
 ### Example
 
 Here's a more complex example that you'd be more likely to see in a real-world app:
